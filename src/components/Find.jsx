@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../App.css";
 import { Link } from "react-router-dom";
 import Axios from "axios";
 
@@ -35,7 +36,6 @@ const Find = () => {
   };
   return (
     <div>
-      <Link to="/">Back</Link>
       <h1>Find a Brewery</h1>
       <form onSubmit={handleSubmit}>
         <input onChange={handleChange} />

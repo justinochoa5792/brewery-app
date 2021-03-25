@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="links">
       <Link to="/find">Find a Brewery</Link>
+      <Link to="/random">Get a Random Brewery</Link>
     </div>
   );
 };
